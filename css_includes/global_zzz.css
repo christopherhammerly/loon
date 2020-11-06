@@ -1,0 +1,51 @@
+body {
+    color: black;
+    font-family: Helvetica, sans-serif;
+    background-color: lightgrey;
+    margin-left: 0;
+    margin-top: 5em;
+}
+
+li.Question-scale-box {
+    width: auto;
+    height: auto;
+    display: table;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.DashedSentence-sentence {
+     font-family: courier, serif;
+     font-size: 32px;
+     font-weight: bold;
+     background-color: lightgrey;
+     color: black;
+     clear: both;
+}
+
+.Separator-next-item-message {
+     font-family: courier, serif;
+     font-size: 32px;
+     font-weight: bold;
+     font-style: normal;
+}
+
+
+.Question-Question {
+    font-family: Helvetica, sans-serif;
+    margin-left: 0;
+    padding-left: 0;
+    font-size: 16px;
+}
+
+li.Question-normal-answer {
+    font-family: Helvetica, sans-serif;
+    text-align: left;
+    cursor: pointer;
+    padding-bottom: 1em;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
