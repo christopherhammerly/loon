@@ -10,7 +10,7 @@ var showProgressBar = true;
 var shuffleSequence = seq(
     //'consent',
     'setcounter',
-    'intro',
+    //'intro',
     'prepractice',
     'practice',
     sepWith("timeoutSep", rshuffle(startsWith('ROC'),startsWith('f'))),
