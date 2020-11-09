@@ -120,25 +120,13 @@ var items = [
 
 ["practice", Message, {consentRequired: false,
                   html: ["div",
-                          ["p", "How was that? That item is one that some, but not all, English speakers judge to be ungrammatical."],
+                          ["p", "How was that?"],
                           ["p", "Let's try another one."]
                         ]}],
 
 ['practice',"Separator",{transfer: 2500, normalMessage: "Get your hands in place!"}],
 
-["practice", "EPDashedSentence", {s:"+"}, DS, {s: "I saw the students were..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
-
-["practice", Message, {consentRequired: false,
-                  html: ["div",
-                          ["p", "That probably felt different than the last one. Many English speakers judge that last sentence to be grammatical. "],
-                          ["p", "Now let's try a few in a row. These will be longer, and more similar to the ones you'll see in the experiment"]
-                        ]}],
-
-['practice',"Separator",{transfer: 2500, normalMessage: "Get your hands in place!"}],
-
-["practice", "EPDashedSentence", {s:"+"}, DS, {s: "The prince waltzed with every girl who he are..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
-["practice", "EPDashedSentence", {s:"+"}, DS, {s: "I turned and screamed at the waiter who the customers always is..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
-["practice", "EPDashedSentence", {s:"+"}, DS, {s: "Did you sit up all night worrying about the man who is..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
+["practice", "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the work to the manager","the manager the work"], randomOrder: ["f","j"]}],
 
 ["practice", Message, {consentRequired: false,
                   html: ["div",
