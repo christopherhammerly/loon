@@ -8,7 +8,7 @@ var showProgressBar = true;
 
 // Main shuffleSequence definition
 var shuffleSequence = seq(
-    'consent',
+    //'consent',
     'setcounter',
     'intro',
     'prepractice',
