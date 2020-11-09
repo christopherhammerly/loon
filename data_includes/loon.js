@@ -13,7 +13,7 @@ var shuffleSequence = seq(
     //'intro',
     //'prepractice',
     'practice',
-    sepWith("timeoutSep", rshuffle(startsWith('ROC'),startsWith('f'))),
+    sepWith("timeoutSep", rshuffle(startsWith('LOON'),startsWith('f'))),
     'debrief',
 //  'exit'
     );
@@ -136,47 +136,40 @@ var items = [
 
 ['practice',"Separator",{transfer: 2500, normalMessage: "Get your hands in place!"}],
 
-[["ROC-MatchGram",			1],			"EPDashedSentence", {s:"+"}, DS, {s:"John checked out the fancy nightclub that the advertisement on the telephone pole is..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
-[["ROC-MatchUnGram",		1],			"EPDashedSentence", {s:"+"}, DS, {s:"John checked out the fancy nightclub that the advertisement on the telephone pole are..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
-[["ROC-PPMismatchGram",		1],			"EPDashedSentence", {s:"+"}, DS, {s:"John checked out the fancy nightclub that the advertisement on the telephone poles is..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
-[["ROC-PPMismatchUngram",	1],			"EPDashedSentence", {s:"+"}, DS, {s:"John checked out the fancy nightclub that the advertisement on the telephone poles are..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
-[["ROC-ORCMismatchGram",	1],			"EPDashedSentence", {s:"+"}, DS, {s:"John checked out the fancy nightclubs that the advertisement on the telephone pole is..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
-[["ROC-ORCMismatchUngram",	1],			"EPDashedSentence", {s:"+"}, DS, {s:"John checked out the fancy nightclubs that the advertisement on the telephone pole are..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],	
-[["ROC-MatchGram",			2],			"EPDashedSentence", {s:"+"}, DS, {s:"Sarah leaned on the telephone pole that the advertisement for the fancy nightclub is..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
-[["ROC-MatchUnGram",		2],			"EPDashedSentence", {s:"+"}, DS, {s:"Sarah leaned on the telephone pole that the advertisement for the fancy nightclub are..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
-[["ROC-PPMismatchGram",		2],			"EPDashedSentence", {s:"+"}, DS, {s:"Sarah leaned on the telephone pole that the advertisement for the fancy nightclubs is..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
-[["ROC-PPMismatchUngram",	2],			"EPDashedSentence", {s:"+"}, DS, {s:"Sarah leaned on the telephone pole that the advertisement for the fancy nightclubs are..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
-[["ROC-ORCMismatchGram",	2],			"EPDashedSentence", {s:"+"}, DS, {s:"Sarah leaned on the telephone poles that the advertisement for the fancy nightclub is..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
-[["ROC-ORCMismatchUngram",	2],			"EPDashedSentence", {s:"+"}, DS, {s:"Sarah leaned on the telephone poles that the advertisement for the fancy nightclub are..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],	
-[["ROC-MatchGram",			3],			"EPDashedSentence", {s:"+"}, DS, {s:"Bill trimmed the giant tree that the path to the famous monument is..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
-[["ROC-MatchUnGram",		3],			"EPDashedSentence", {s:"+"}, DS, {s:"Bill trimmed the giant tree that the path to the famous monument are..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
-[["ROC-PPMismatchGram",		3],			"EPDashedSentence", {s:"+"}, DS, {s:"Bill trimmed the giant tree that the path to the famous monuments is..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
-[["ROC-PPMismatchUngram",	3],			"EPDashedSentence", {s:"+"}, DS, {s:"Bill trimmed the giant tree that the path to the famous monuments are..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
-[["ROC-ORCMismatchGram",	3],			"EPDashedSentence", {s:"+"}, DS, {s:"Bill trimmed the giant trees that the path to the famous monument is..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
-[["ROC-ORCMismatchUngram",	3],			"EPDashedSentence", {s:"+"}, DS, {s:"Bill trimmed the giant trees that the path to the famous monument are..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],	
-[["ROC-MatchGram",			4],			"EPDashedSentence", {s:"+"}, DS, {s:"Brian photographed the famous monument that the path by the giant tree is..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
-[["ROC-MatchUnGram",		4],			"EPDashedSentence", {s:"+"}, DS, {s:"Brian photographed the famous monument that the path by the giant tree are..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
-[["ROC-PPMismatchGram",		4],			"EPDashedSentence", {s:"+"}, DS, {s:"Brian photographed the famous monument that the path by the giant trees is..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
-[["ROC-PPMismatchUngram",	4],			"EPDashedSentence", {s:"+"}, DS, {s:"Brian photographed the famous monument that the path by the giant trees are..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
-[["ROC-ORCMismatchGram",	4],			"EPDashedSentence", {s:"+"}, DS, {s:"Brian photographed the famous monuments that the path by the giant tree is..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
-[["ROC-ORCMismatchUngram",	4],			"EPDashedSentence", {s:"+"}, DS, {s:"Brian photographed the famous monuments that the path by the giant tree are..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false	}],	
-[["ROC-MatchGram",			5],			"EPDashedSentence", {s:"+"}, DS, {s:"Alex visited the massive mansion that the sign on the old highway is..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
-[["ROC-MatchUnGram",		5],			"EPDashedSentence", {s:"+"}, DS, {s:"Alex visited the massive mansion that the sign on the old highway are..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
-[["ROC-PPMismatchGram",		5],			"EPDashedSentence", {s:"+"}, DS, {s:"Alex visited the massive mansion that the sign on the old highways is..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
-[["ROC-PPMismatchUngram",	5],			"EPDashedSentence", {s:"+"}, DS, {s:"Alex visited the massive mansion that the sign on the old highways are..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
-[["ROC-ORCMismatchGram",	5],			"EPDashedSentence", {s:"+"}, DS, {s:"Alex visited the massive mansions that the sign on the old highway is..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
-[["ROC-ORCMismatchUngram",	5],			"EPDashedSentence", {s:"+"}, DS, {s:"Alex visited the massive mansions that the sign on the old highway are..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],	
-[["ROC-MatchGram",			6],			"EPDashedSentence", {s:"+"}, DS, {s:"Caroline looked for the old highway that the sign near the massive mansion is..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
-[["ROC-MatchUnGram",		6],			"EPDashedSentence", {s:"+"}, DS, {s:"Caroline looked for the old highway that the sign near the massive mansion are..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
-[["ROC-PPMismatchGram",		6],			"EPDashedSentence", {s:"+"}, DS, {s:"Caroline looked for the old highway that the sign near the massive mansions is..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
-[["ROC-PPMismatchUngram",	6],			"EPDashedSentence", {s:"+"}, DS, {s:"Caroline looked for the old highway that the sign near the massive mansions are..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
-[["ROC-ORCMismatchGram",	6],			"EPDashedSentence", {s:"+"}, DS, {s:"Caroline looked for the old highways that the sign near the massive mansion is..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
-[["ROC-ORCMismatchUngram",	6],			"EPDashedSentence", {s:"+"}, DS, {s:"Caroline looked for the old highways that the sign near the massive mansion are..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],	
+[["LOON-AnimInsitu",	1],			"EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
+[["LOON-InanInsitu",	1],			"EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
+[["LOON-AnimMoved",	  1],			"EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
+[["LOON-InanMoved",   1],			"EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
+
+[["LOON-AnimInsitu",  2],     "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
+[["LOON-InanInsitu",  2],     "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
+[["LOON-AnimMoved",   2],     "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
+[["LOON-InanMoved",   2],     "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
+
+[["LOON-AnimInsitu",  3],     "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
+[["LOON-InanInsitu",  3],     "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
+[["LOON-AnimMoved",   3],     "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
+[["LOON-InanMoved",   3],     "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
+
+[["LOON-AnimInsitu",  4],     "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
+[["LOON-InanInsitu",  4],     "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
+[["LOON-AnimMoved",   4],     "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
+[["LOON-InanMoved",   4],     "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
+
+[["LOON-AnimInsitu",  5],     "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
+[["LOON-InanInsitu",  5],     "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
+[["LOON-AnimMoved",   5],     "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
+[["LOON-InanMoved",   5],     "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
+
+[["LOON-AnimInsitu",  6],     "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
+[["LOON-InanInsitu",  6],     "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
+[["LOON-AnimMoved",   6],     "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
+[["LOON-InanMoved",   6],     "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
 
 
 
 
-[["f-GramFill",		901], "EPDashedSentence", {s:"+"}, DS, {s:"The owner knew the customer that the busboys with the plate are..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}]
+[["f-Fill",		901], "EPDashedSentence", {s:"+"}, DS, {s:"The owner knew the customer that the busboys with the plate are..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}]
 
 
 ];
