@@ -40,12 +40,12 @@ var defaults = [
         },
     DS, {q: '',
         as: [['j','J = Grammatical'],['k','K = Ungrammatical']],
-        randomOrder: false,
+        randomOrder: true,
         presentHorizontally: true,
         mode: 'speeded acceptability',
         display: 'in place',
         blankText: '+',
-        wordTime: 225,
+        wordTime: 300,
         wordPauseTime: 100,
         timeout: 10000}
 ];
