@@ -137,39 +137,28 @@ var items = [
 ['practice',"Separator",{transfer: 2500, normalMessage: "Get your hands in place!"}],
 
 [["LOON-AnimInsitu",	1],			"EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
-[["LOON-InanInsitu",	1],			"EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
-[["LOON-AnimMoved",	  1],			"EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
-[["LOON-InanMoved",   1],			"EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
+[["LOON-InanInsitu",	1],			"EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the work to the manager","the manager the work"], randomOrder: ["f","j"]}],
+[["LOON-AnimMoved",	  1],			"EPDashedSentence", {s:"+"}, DS, {s: "I saw the worker who the boss assigned", as: ["to the manager","the manager"], randomOrder: ["f","j"]}],
+[["LOON-InanMoved",   1],			"EPDashedSentence", {s:"+"}, DS, {s: "I saw the work that the boss assigned", as: ["to the manager","the manager"], randomOrder: ["f","j"]}],
 
-[["LOON-AnimInsitu",  2],     "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
-[["LOON-InanInsitu",  2],     "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
-[["LOON-AnimMoved",   2],     "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
-[["LOON-InanMoved",   2],     "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
+[["LOON-AnimInsitu",  2],     "EPDashedSentence", {s:"+"}, DS, {s: "I heard the orchestra conductor recommended", as: ["the musician to the composer","the composer the musician"], randomOrder: ["f","j"]}],
+[["LOON-InanInsitu",  2],     "EPDashedSentence", {s:"+"}, DS, {s: "I heard the orchestra conductor recommended", as: ["the music to the composer","the composer the music"], randomOrder: ["f","j"]}],
+[["LOON-AnimMoved",   2],     "EPDashedSentence", {s:"+"}, DS, {s: "I heard the musician who the orchestra conductor recommended", as: ["to the composer","the composer"], randomOrder: ["f","j"]}],
+[["LOON-InanMoved",   2],     "EPDashedSentence", {s:"+"}, DS, {s: "I heard the music who the orchestra conductor recommended", as: ["to the composer","the composer"], randomOrder: ["f","j"]}],
 
-[["LOON-AnimInsitu",  3],     "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
-[["LOON-InanInsitu",  3],     "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
-[["LOON-AnimMoved",   3],     "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
-[["LOON-InanMoved",   3],     "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
+[["LOON-AnimInsitu",  3],     "EPDashedSentence", {s:"+"}, DS, {s: "I saw the archivist brought", as: ["the painter to the curator","the curator the painter"], randomOrder: ["f","j"]}],
+[["LOON-InanInsitu",  3],     "EPDashedSentence", {s:"+"}, DS, {s: "I saw the archivist brought", as: ["the paint to the curator","the curator the paint"], randomOrder: ["f","j"]}],
+[["LOON-AnimMoved",   3],     "EPDashedSentence", {s:"+"}, DS, {s: "I saw the painter who the archivist brought", as: ["to the curator","the curator"], randomOrder: ["f","j"]}],
+[["LOON-InanMoved",   3],     "EPDashedSentence", {s:"+"}, DS, {s: "I saw the paint that the archivist brought", as: ["to the curator","the curator"], randomOrder: ["f","j"]}],
 
-[["LOON-AnimInsitu",  4],     "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
-[["LOON-InanInsitu",  4],     "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
-[["LOON-AnimMoved",   4],     "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
-[["LOON-InanMoved",   4],     "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
-
-[["LOON-AnimInsitu",  5],     "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
-[["LOON-InanInsitu",  5],     "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
-[["LOON-AnimMoved",   5],     "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
-[["LOON-InanMoved",   5],     "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
-
-[["LOON-AnimInsitu",  6],     "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
-[["LOON-InanInsitu",  6],     "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
-[["LOON-AnimMoved",   6],     "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
-[["LOON-InanMoved",   6],     "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
+[["LOON-AnimInsitu",  4],     "EPDashedSentence", {s:"+"}, DS, {s: "I noticed the mother gave", as: ["the toddler to the father","the father the toddler"], randomOrder: ["f","j"]}],
+[["LOON-InanInsitu",  4],     "EPDashedSentence", {s:"+"}, DS, {s: "I noticed the mother gave", as: ["the stroller to the father","the father the stroller"], randomOrder: ["f","j"]}],
+[["LOON-AnimMoved",   4],     "EPDashedSentence", {s:"+"}, DS, {s: "I noticed the toddler who the mother gave", as: ["to the father","the father"], randomOrder: ["f","j"]}],
+[["LOON-InanMoved",   4],     "EPDashedSentence", {s:"+"}, DS, {s: "I noticed the stroller that the mother gave", as: ["to the father","the father"], randomOrder: ["f","j"]}],
 
 
 
-
-[["f-Fill",		901], "EPDashedSentence", {s:"+"}, DS, {s:"The owner knew the customer that the busboys with the plate are..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}]
+[["f-Fill",		901], "EPDashedSentence", {s:"+"}, DS, {s: "I heard the wealthy doner gave", as: ["a huge donation to the university","the university a huge donation"], randomOrder: ["f","j"]}]
 
 
 ];
