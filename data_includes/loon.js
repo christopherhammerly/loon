@@ -39,7 +39,6 @@ var defaults = [
         wordPauseTime: 100
         },
     DS, {q: '',
-        as: [['j','J = Grammatical'],['k','K = Ungrammatical']],
         randomOrder: false,
         presentHorizontally: true,
         mode: 'speeded acceptability',
@@ -116,7 +115,7 @@ var items = [
 ['practice',"Separator",{transfer: 2500, normalMessage: "Get your hands in place!"}],
 
 
-["practice", "EPDashedSentence", {s:"+"}, DS, {s: "I know those cats was..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
+["practice", "EPDashedSentence", {s:"+"}, DS, {s: "I know those cats was...", as: [['j','J = test'],['k','K = test2']],}],
 
 ["practice", Message, {consentRequired: false,
                   html: ["div",
