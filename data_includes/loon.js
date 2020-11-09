@@ -110,13 +110,13 @@ var items = [
 
 ["practice", Message, {consentRequired: false,
                    html: ["div",
-                           ["p", "Let's try the first practice item. After clicking the link you should get your hands ready. Your right hand will be on 'J' and 'K' (pointer finger on 'J' and middle finger on 'K') and your left hand on the '1-3' keys"]
+                           ["p", "Let's try the first practice item. After clicking the link you should get your hands ready. Your left pointer finger should be on the 'f' key and your right pointer finger on the 'j' key."]
                          ]}],
 
 ['practice',"Separator",{transfer: 2500, normalMessage: "Get your hands in place!"}],
 
 
-["practice", "EPDashedSentence", {s:"+"}, DS, {s: "I know those cats was...", as: [['j','J = test'],['k','K = test2']]}],
+["practice", "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: [['f','the worker to the manager'],['k','the manager the worker']]}],
 
 ["practice", Message, {consentRequired: false,
                   html: ["div",
