@@ -14,7 +14,7 @@ var shuffleSequence = seq(
     //'prepractice',
     'practice',
     sepWith("timeoutSep", rshuffle(startsWith('LOON'),startsWith('f'))),
-    'debrief',
+    //'debrief',
 //  'exit'
     );
 
