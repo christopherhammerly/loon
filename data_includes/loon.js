@@ -116,7 +116,7 @@ var items = [
 ['practice',"Separator",{transfer: 2500, normalMessage: "Get your hands in place!"}],
 
 
-["practice", "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ['the worker to the manager','the manager the worker'], randomOrder: ['f','j']]}],
+["practice", "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ['the worker to the manager','the manager the worker'], randomOrder: ["f","j"]]}],
 
 ["practice", Message, {consentRequired: false,
                   html: ["div",
