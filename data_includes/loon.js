@@ -11,7 +11,7 @@ var shuffleSequence = seq(
     //'consent',
     'setcounter',
     //'intro',
-    'prepractice',
+    //'prepractice',
     'practice',
     sepWith("timeoutSep", rshuffle(startsWith('ROC'),startsWith('f'))),
     'debrief',
@@ -47,7 +47,7 @@ var defaults = [
         blankText: '+',
         wordTime: 225,
         wordPauseTime: 100,
-        timeout: 2000}
+        timeout: 10000}
 ];
 
 //
