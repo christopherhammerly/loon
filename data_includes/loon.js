@@ -40,7 +40,7 @@ var defaults = [
         },
     DS, {q: '',
         as: [['j','J = Grammatical'],['k','K = Ungrammatical']],
-        randomOrder: true,
+        randomOrder: false,
         presentHorizontally: true,
         mode: 'speeded acceptability',
         display: 'in place',
