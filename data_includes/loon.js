@@ -136,7 +136,7 @@ var items = [
 
 ['practice',"Separator",{transfer: 2500, normalMessage: "Get your hands in place!"}],
 
-[["LOON-AnimInsitu",	1],			"EPDashedSentence", {s:"+"}, DS, {s: "I  that the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
+[["LOON-AnimInsitu",	1],			"EPDashedSentence", {s:"+"}, DS, {s: "I saw that the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
 [["LOON-InanInsitu",	1],			"EPDashedSentence", {s:"+"}, DS, {s: "I saw that the boss assigned", as: ["the work to the manager","the manager the work"], randomOrder: ["f","j"]}],
 [["LOON-AnimMoved",	  1],			"EPDashedSentence", {s:"+"}, DS, {s: "I saw the worker who the boss assigned", as: ["to the manager","the manager"], randomOrder: ["f","j"]}],
 [["LOON-InanMoved",   1],			"EPDashedSentence", {s:"+"}, DS, {s: "I saw the work that the boss assigned", as: ["to the manager","the manager"], randomOrder: ["f","j"]}],
