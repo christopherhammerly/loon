@@ -226,7 +226,7 @@ var items = [
 [["LOON-InanMoved",   18],			"EPDashedSentence", {s:"+"}, DS, {s: "I noticed the farm that the teacher showed", as: ["to the child","the child"], randomOrder: ["f","j"]}],
 
 [["LOON-AnimInsitu",  19],			"EPDashedSentence", {s:"+"}, DS, {s: "I saw that the tour guide gave", as: ["the student to the chaperone","the chaperone the student"], randomOrder: ["f","j"]}],
-[["LOON-InanInsitu",  19],			"EPDashedSentence", {s:"+"}, DS, {s: "I saw tthat he tour guide gave", as: ["the luchbox to the chaperone","the chaperone the luchbox"], randomOrder: ["f","j"]}],
+[["LOON-InanInsitu",  19],			"EPDashedSentence", {s:"+"}, DS, {s: "I saw that the tour guide gave", as: ["the luchbox to the chaperone","the chaperone the luchbox"], randomOrder: ["f","j"]}],
 [["LOON-AnimMoved",	  19],			"EPDashedSentence", {s:"+"}, DS, {s: "I saw the student who the tour guide gave", as: ["to the chaperone","the chaperone"], randomOrder: ["f","j"]}],
 [["LOON-InanMoved",   19],			"EPDashedSentence", {s:"+"}, DS, {s: "I saw the luchbox that the tour guide gave", as: ["to the chaperone","the chaperone"], randomOrder: ["f","j"]}],
 
