@@ -13,9 +13,6 @@ li.normal-answer {
     padding-bottom: 1em;
 }
 
-<div class="container">
-  <div class="child"></div>
-</div>
 li.scale-box {
     float: left;
     list-style: none;
@@ -30,18 +27,6 @@ li.scale-box {
     text-align: center;
     font-size: 20px;
 }
-.container {
-  ...
-  position: relative;
-}
-
-.child {
-  ... 
-  position: absolute;
-  top: 50%;
-  transform: translate(0, -50%);
-}
-
 .scale-comment-box {
     float: left;
     list-style: none;
