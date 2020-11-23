@@ -8,13 +8,13 @@ var showProgressBar = true;
 
 // Main shuffleSequence definition
 var shuffleSequence = seq(
-    //'consent',
+
     'setcounter',
-    //'intro',
-    //'prepractice',
+    'intro',
+    'prepractice',
     'practice',
     sepWith("timeoutSep", rshuffle(startsWith('LOON'),startsWith('f'))),
-    //'debrief',
+    'debrief',
 //  'exit'
     );
 
