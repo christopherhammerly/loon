@@ -120,7 +120,7 @@ var items = [
 ["practice", Message, {consentRequired: false,
                   html: ["div",
                           ["p", "How was that?"],
-                          ["p", "Let's try another one."]
+                          ["p", "Let's try a few in a row."]
                         ]}],
 
 ['practice',"Separator",{transfer: 2500, normalMessage: "Get your hands in place!"}],
