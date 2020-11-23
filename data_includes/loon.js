@@ -115,7 +115,7 @@ var items = [
 ['practice',"Separator",{transfer: 2500, normalMessage: "Get your hands in place!"}],
 
 
-["practice", "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the worker to the manager","the manager the worker"], randomOrder: ["f","j"]}],
+["practice", "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the salesman to the customer","the customer the salesman"], randomOrder: ["f","j"]}],
 
 ["practice", Message, {consentRequired: false,
                   html: ["div",
@@ -125,7 +125,9 @@ var items = [
 
 ['practice',"Separator",{transfer: 2500, normalMessage: "Get your hands in place!"}],
 
-["practice", "EPDashedSentence", {s:"+"}, DS, {s: "I saw the boss assigned", as: ["the work to the manager","the manager the work"], randomOrder: ["f","j"]}],
+["practice", "EPDashedSentence", {s:"+"}, DS, {s: "I remembered the parent brought", as: ["the nurse to the child","the child the nurse"], randomOrder: ["f","j"]}],
+["practice", "EPDashedSentence", {s:"+"}, DS, {s: "I saw the teacher showed", as: ["the painting to the student","the student the painting"], randomOrder: ["f","j"]}],
+["practice", "EPDashedSentence", {s:"+"}, DS, {s: "I noticed the secretary recommended", as: ["the stylist to the bride","the bride the stylist"], randomOrder: ["f","j"]}],
 
 ["practice", Message, {consentRequired: false,
                   html: ["div",
