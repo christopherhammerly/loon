@@ -4,7 +4,7 @@
 
 // Asserts breaks every 12 items.
 
-debugoff()
+DebugOff() 
 
 var showProgressBar = true;
 
