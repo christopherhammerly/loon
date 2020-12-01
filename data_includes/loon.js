@@ -4,7 +4,7 @@
 
 // Asserts breaks every 12 items.
 
-PennController.DebugOff()
+PennController.DebugOff();
 
 var showProgressBar = true;
 
