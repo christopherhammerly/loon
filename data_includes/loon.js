@@ -97,7 +97,7 @@ function modifyRunningOrder(ro)
 var items = [
 
 ["setcounter", "__SetCounter__", { }],
-["timeoutSep", Separator, { transfer: 250, normalMessage: "", errorMessage: "Timed out. Please respond more quickly."}],
+["timeoutSep", Separator, { transfer: 1000, normalMessage: "", errorMessage: "Timed out. Please respond with your first instinct."}],
 
 //["consent", "Form", {consentRequired: true, html: {include: "consent.html"}}],
 ["intro", "SSForm", {consentRequired: true, html: {include: "intro.html"}}],
