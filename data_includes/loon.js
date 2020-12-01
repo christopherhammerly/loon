@@ -174,7 +174,7 @@ var items = [
 [["LOON-InanMoved",   7],			"EPDashedSentence", {s:"+"}, DS, {s: "I saw the cradle that the dad gave", as: ["to the nanny","the nanny"], randomOrder: ["f","j"]}],
 
 [["LOON-AnimInsitu",  8],			"EPDashedSentence", {s:"+"}, DS, {s: "I noticed that the doctor assigned", as: ["the therapist to the patient","the patient the therapist"], randomOrder: ["f","j"]}],
-[["LOON-InanInsitu",  8],			"EPDashedSentence", {s:"+"}, DS, {s: "I noticed that the doctor assigned", as: ["the therapy to the patient","the patient the therapy "], randomOrder: ["f","j"]}],
+[["LOON-InanInsitu",  8],			"EPDashedSentence", {s:"+"}, DS, {s: "I noticed that the doctor assigned", as: ["the therapy to the patient","the patient the therapy"], randomOrder: ["f","j"]}],
 [["LOON-AnimMoved",	  8],			"EPDashedSentence", {s:"+"}, DS, {s: "I noticed the therapist who doctor assigned", as: ["to the patient","the patient"], randomOrder: ["f","j"]}],
 [["LOON-InanMoved",   8],			"EPDashedSentence", {s:"+"}, DS, {s: "I noticed the therapy the doctor assigned", as: ["to the patient","the patient"], randomOrder: ["f","j"]}],
 
@@ -184,14 +184,14 @@ var items = [
 [["LOON-InanMoved",   9],			"EPDashedSentence", {s:"+"}, DS, {s: "I remember the assistance that the hiring manager promised", as: ["to the administrator","the administrator"], randomOrder: ["f","j"]}],
 
 [["LOON-AnimInsitu",  10],			"EPDashedSentence", {s:"+"}, DS, {s: "I remembered that the hostess showed", as: ["the dancer to the guest","the guest the dancer"], randomOrder: ["f","j"]}],
-[["LOON-InanInsitu",  10],			"EPDashedSentence", {s:"+"}, DS, {s: "I remembered that the hostess showed", as: ["the dance to the guest ","the guest the dance"], randomOrder: ["f","j"]}],
+[["LOON-InanInsitu",  10],			"EPDashedSentence", {s:"+"}, DS, {s: "I remembered that the hostess showed", as: ["the dance to the guest","the guest the dance"], randomOrder: ["f","j"]}],
 [["LOON-AnimMoved",	  10],			"EPDashedSentence", {s:"+"}, DS, {s: "I remembered the dancer who the hostess showed", as: ["to the guest","the guest"], randomOrder: ["f","j"]}],
-[["LOON-InanMoved",   10],			"EPDashedSentence", {s:"+"}, DS, {s: "I remembered the dance that the hostess showed", as: ["to the guest ","the guest"], randomOrder: ["f","j"]}],
+[["LOON-InanMoved",   10],			"EPDashedSentence", {s:"+"}, DS, {s: "I remembered the dance that the hostess showed", as: ["to the guest","the guest"], randomOrder: ["f","j"]}],
 
 [["LOON-AnimInsitu",  11],			"EPDashedSentence", {s:"+"}, DS, {s: "I saw that the nurse brought", as: ["the doctor to the patient","the patient the doctor"], randomOrder: ["f","j"]}],
 [["LOON-InanInsitu",  11],			"EPDashedSentence", {s:"+"}, DS, {s: "I saw that the nurse brought", as: ["the medicine to the patient","the patient the medicine"], randomOrder: ["f","j"]}],
-[["LOON-AnimMoved",	  11],			"EPDashedSentence", {s:"+"}, DS, {s: "I saw the doctor who the nurse brought", as: ["to the patient","the patient "], randomOrder: ["f","j"]}],
-[["LOON-InanMoved",   11],			"EPDashedSentence", {s:"+"}, DS, {s: "I saw the medicine that the nurse brought", as: ["to the patient","the patient "], randomOrder: ["f","j"]}],
+[["LOON-AnimMoved",	  11],			"EPDashedSentence", {s:"+"}, DS, {s: "I saw the doctor who the nurse brought", as: ["to the patient","the patient"], randomOrder: ["f","j"]}],
+[["LOON-InanMoved",   11],			"EPDashedSentence", {s:"+"}, DS, {s: "I saw the medicine that the nurse brought", as: ["to the patient","the patient"], randomOrder: ["f","j"]}],
 
 [["LOON-AnimInsitu",  12],			"EPDashedSentence", {s:"+"}, DS, {s: "I noticed that the travel blogger recommended", as: ["the pilot to the passenger","the passenger the pilot"], randomOrder: ["f","j"]}],
 [["LOON-InanInsitu",  12],			"EPDashedSentence", {s:"+"}, DS, {s: "I noticed that the travel blogger recommended", as: ["the plane to the passenger","the passenger the plane"], randomOrder: ["f","j"]}],
@@ -254,7 +254,7 @@ var items = [
 [["LOON-InanMoved",   23],			"EPDashedSentence", {s:"+"}, DS, {s: "I saw the camera that the director promised", as: ["to the producer","the producer"], randomOrder: ["f","j"]}],
 
 [["LOON-AnimInsitu",  24],			"EPDashedSentence", {s:"+"}, DS, {s: "I noticed that the publisher assigned", as: ["the author to the agent","the agent the author"], randomOrder: ["f","j"]}],
-[["LOON-InanInsitu",  24],			"EPDashedSentence", {s:"+"}, DS, {s: "I noticed that the publisher assigned ", as: ["the book to the agent","the agent the book"], randomOrder: ["f","j"]}],
+[["LOON-InanInsitu",  24],			"EPDashedSentence", {s:"+"}, DS, {s: "I noticed that the publisher assigned", as: ["the book to the agent","the agent the book"], randomOrder: ["f","j"]}],
 [["LOON-AnimMoved",	  24],			"EPDashedSentence", {s:"+"}, DS, {s: "I noticed the author who the publisher assigned", as: ["to the agent","the agent"], randomOrder: ["f","j"]}],
 [["LOON-InanMoved",   24],			"EPDashedSentence", {s:"+"}, DS, {s: "I noticed the book that the publisher assigned", as: ["to the agent","the agent"], randomOrder: ["f","j"]}],
 
