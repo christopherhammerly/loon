@@ -100,7 +100,7 @@ var items = [
 ["timeoutSep", Separator, { transfer: 1000, normalMessage: "", errorMessage: "Timed out. Please respond with your first instinct."}],
 
 //["consent", "Form", {consentRequired: true, html: {include: "consent.html"}}],
-["intro", "Form", {consentRequired: true, html: {include: "intro.html"}}],
+["intro", "SSForm", {consentRequired: true, html: {include: "intro.html"}}],
 ["debrief", "Form", {consentRequired: true, html: {include: "debrief.html"}}],
 ["exit", "Form", {consentRequired: true, html: {include: "exit.html"}}],
 
