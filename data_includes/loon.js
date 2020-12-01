@@ -4,13 +4,14 @@
 
 // Asserts breaks every 12 items.
 
+debugoff()
+
 var showProgressBar = true;
 
 // Main shuffleSequence definition
 var shuffleSequence = seq(
-
-    'setcounter',
     'intro',
+    'setcounter',
     'prepractice',
     'practice',
     sepWith("timeoutSep", rshuffle(startsWith('LOON'),startsWith('f'))),
@@ -25,8 +26,8 @@ var DS = 'EPDashedAcceptabilityJudgment';
 
 //  Set the Prolific Academic Completion URL
 var sendingResultsMessage = "Please wait. Your data are being sent to the server."; 
-var completionMessage = "Thank you for your participation. Your completion code is UINJOPV3. To complete this experiment, go to: https://app.prolific.ac/submissions/complete?cc=UINJOPV3."; 
-var completionErrorMessage = "There was an error in sending your data to the server. You may still complete this experiment. Your completion code is UINJOPV3. Please go to: https://app.prolific.ac/submissions/complete?cc=UINJOPV3."; 
+var completionMessage = "Thank you for your participation. Your completion code is 1E1230E5. To complete this experiment, go to: https://app.prolific.ac/submissions/complete?cc=1E1230E5."; 
+var completionErrorMessage = "There was an error in sending your data to the server. You may still complete this experiment. Your completion code is 1E1230E5. Please go to: https://app.prolific.ac/submissions/complete?cc=1E1230E5."; 
 
 
 // Controller settings.
