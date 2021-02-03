@@ -1,0 +1,145 @@
+Item,Verb,PD,DO,Animacy,Displacement
+1,assign,the worker to the manager,the manager the worker,Animate,In Situ
+1,assign,the work to the manager,the manager the work,Inanimate,In Situ
+1,assign,to the manager,the manager,Animate,Moved
+1,assign,to the manager,the manager,Inanimate,Moved
+2,recommend,the musician to the composer,the composer the musician,Animate,In Situ
+2,recommend,the music to the composer,the composer the music,Inanimate,In Situ
+2,recommend,to the composer,the composer,Animate,Moved
+2,recommend,to the composer,the composer,Inanimate,Moved
+3,bring,the painter to the curator,the curator the painter,Animate,In Situ
+3,bring,the painting to the curator,the curator the painting,Inanimate,In Situ
+3,bring,to the curator,the curator,Animate,Moved
+3,bring,to the curator,the curator,Inanimate,Moved
+4,give,the toddler to the father,the father the toddler,Animate,In Situ
+4,give,the stroller to the father,the father the stroller,Inanimate,In Situ
+4,give,to the father,the father,Animate,Moved
+4,give,to the father,the father,Inanimate,Moved
+5,assign,the cashier to the trainee,the trainee the cashier,Animate,In Situ
+5,assign,the register to the trainee,the trainee the register,Inanimate,In Situ
+5,assign,to the trainee,the trainee,Animate,Moved
+5,assign,to the trainee,the trainee,Inanimate,Moved
+6,bring,the driver to the traveler,the traveler the driver,Animate,In Situ
+6,bring,the taxi to the traveler,the traveler the taxi,Inanimate,In Situ
+6,bring,to the traveler,the traveler,Animate,Moved
+6,bring,to the traveler,the traveler,Inanimate,Moved
+7,give,the baby to the nanny,the nanny the baby,Animate,In Situ
+7,give,the cradle to the nanny,the nanny the cradle,Inanimate,In Situ
+7,give,to the nanny,the nanny,Animate,Moved
+7,give,to the nanny,the nanny,Inanimate,Moved
+8,assign,the therapist to the patient,the patient the therapist,Animate,In Situ
+8,assign,the therapy to the patient,the patient the therapy ,Inanimate,In Situ
+8,assign,to the patient,the patient,Animate,Moved
+8,assign,to the patient,the patient,Inanimate,Moved
+9,promise,the intern to the administrator,the administrator the intern,Animate,In Situ
+9,promise,the assistance to the administrator,the administrator the assistance,Inanimate,In Situ
+9,promise,to the administrator,the administrator,Animate,Moved
+9,promise,to the administrator,the administrator,Inanimate,Moved
+10,show,the dancer to the guest,the guest the dancer,Animate,In Situ
+10,show,the dance to the guest ,the guest the dance,Inanimate,In Situ
+10,show,to the guest,the guest,Animate,Moved
+10,show,to the guest ,the guest,Inanimate,Moved
+11,bring,the doctor to the patient,the patient the doctor,Animate,In Situ
+11,bring,the medicine to the patient,the patient the medicine,Inanimate,In Situ
+11,bring,to the patient,the patient ,Animate,Moved
+11,bring,to the patient,the patient ,Inanimate,Moved
+12,recommend,the pilot to the passenger,the passenger the pilot,Animate,In Situ
+12,recommend,the plane to the passenger,the passenger the plane,Inanimate,In Situ
+12,recommend,to the passenger,the passenger,Animate,Moved
+12,recommend,to the passenger,the passenger,Inanimate,Moved
+13,assign,the designer to the actor,the actor the designer,Animate,In Situ
+13,assign,the design to the actor,the actor the design,Inanimate,In Situ
+13,assign,to the actor,the actor,Animate,Moved
+13,assign,to the actor,the actor,Inanimate,Moved
+14,show,the painter to the student,the student the painter,Animate,In Situ
+14,show,the painting to the student,the student the painting,Inanimate,In Situ
+14,show,to the student,the student,Animate,Moved
+14,show,to the student,the student,Inanimate,Moved
+15,promise,the contractor to the boss,the boss the contractor,Animate,In Situ
+15,promise,the contract to the boss,the boss the contract,Inanimate,In Situ
+15,promise,to the boss,the boss,Animate,Moved
+15,promise,to the boss,the boss,Inanimate,Moved
+16,recommend,the brewer to the tourist,the tourist the brewer,Animate,In Situ
+16,recommend,the brewery to the tourist,the tourist the brewery,Inanimate,In Situ
+16,recommend,to the tourist,the tourist,Animate,Moved
+16,recommend,to the tourist,the tourist,Inanimate,Moved
+17,assign,the teacher to the student,the student the teacher,Animate,In Situ
+17,assign,the lesson to the student,the student the lesson,Inanimate,In Situ
+17,assign,to the student,the student,Animate,Moved
+17,assign,to the student,the student,Inanimate,Moved
+18,show,the farmer to the child,the child the farmer,Animate,In Situ
+18,show,the farm to the child,the child the farm,Inanimate,In Situ
+18,show,to the child,the child,Animate,Moved
+18,show,to the child,the child,Inanimate,Moved
+19,give,the student to the chaperone,the chaperone the student,Animate,In Situ
+19,give,the luchbox to the chaperone,the chaperone the luchbox,Inanimate,In Situ
+19,give,to the chaperone,the chaperone,Animate,Moved
+19,give,to the chaperone,the chaperone,Inanimate,Moved
+20,show,the reporter to the senator,the senator the reporter,Animate,In Situ
+20,show,the report to the senator,the senator the report,Inanimate,In Situ
+20,show,to the senator,the senator,Animate,Moved
+20,show,to the senator,the senator,Inanimate,Moved
+21,promise,the witness to the lawyer,the lawyer the witness,Animate,In Situ
+21,promise,the evidence to the lawyer,the lawyer the evidence,Inanimate,In Situ
+21,promise,to the lawyer,the lawyer,Animate,Moved
+21,promise,to the lawyer,the lawyer,Inanimate,Moved
+22,recommend,the chef to the reporter,the reporter the chef,Animate,In Situ
+22,recommend,the restaurant to the reporter,the reporter the restaurant,Inanimate,In Situ
+22,recommend,to the reporter,the reporter,Animate,Moved
+22,recommend,to the reporter,the reporter,Inanimate,Moved
+23,promise,the cameraman to the producer,the producer the cameraman,Animate,In Situ
+23,promise,the camera to the producer,the producer the camera,Inanimate,In Situ
+23,promise,to the producer,the producer,Animate,Moved
+23,promise,to the producer,the producer,Inanimate,Moved
+24,assign,the author to the agent,the agent the author,Animate,In Situ
+24,assign,the book to the agent,the agent the book,Inanimate,In Situ
+24,assign,to the agent,the agent,Animate,Moved
+24,assign,to the agent,the agent,Inanimate,Moved
+25,assign,the investigator to the detective,the detective the investigator,Animate,In Situ
+25,assign,the investigation to the detective,the detective the investigation,Inanimate,In Situ
+25,assign,to the detective,the detective,Animate,Moved
+25,assign,to the detective,the detective,Inanimate,Moved
+26,promise,the illustrator to the author,the author the illustrator,Animate,In Situ
+26,promise,the illustration to the author,the author the illustration,Inanimate,In Situ
+26,promise,to the author,the author,Animate,Moved
+26,promise,to the author,the author,Inanimate,Moved
+27,show,the announcer to the reporter,the reporter the announcer,Animate,In Situ
+27,show,the announcement to the reporter,the reporter the announcement,Inanimate,In Situ
+27,show,to the reporter,the reporter,Animate,Moved
+27,show,to the reporter,the reporter,Inanimate,Moved
+28,give,the puppy to the owner,the owner the puppy,Animate,In Situ
+28,give,the collar to the owner,the owner the collar,Inanimate,In Situ
+28,give,to the owner,the owner,Animate,Moved
+28,give,to the owner,the owner,Inanimate,Moved
+29,bring,the gardener to the homeowner,the homeowner the gardener,Animate,In Situ
+29,bring,the mulch to the homeowner,the homeowner the mulch,Inanimate,In Situ
+29,bring,to the homeowner,the homeowner,Animate,Moved
+29,bring,to the homeowner,the homeowner,Inanimate,Moved
+30,bring,the doctor to the patient,the patient the doctor,Animate,In Situ
+30,bring,the medicine to the patient,the patient the medicine,Inanimate,In Situ
+30,bring,to the patient,the patient,Animate,Moved
+30,bring,to the patient,the patient,Inanimate,Moved
+31,bring,the cameraman to the interviewer,the interviewer the cameraman,Animate,In Situ
+31,bring,the camera to the interviewer,the interviewer the camera,Inanimate,In Situ
+31,bring,to the interviewer,the interviewer,Animate,Moved
+31,bring,to the interviewer,the interviewer,Inanimate,Moved
+32,show,the librarian to the child,the child the librarian,Animate,In Situ
+32,show,the library to the child,the child the library,Inanimate,In Situ
+32,show,to the child,the child,Animate,Moved
+32,show,to the child,the child,Inanimate,Moved
+33,show,the sculptor to the curator,the curator the sculptor,Animate,In Situ
+33,show,the sculpture to the curator,the curator the sculpture,Inanimate,In Situ
+33,show,to the curator,the curator,Animate,Moved
+33,show,to the curator,the curator,Inanimate,Moved
+34,recommend,the researcher to the professor,the professor the researcher,Animate,In Situ
+34,recommend,the journal to the professor,the professor the journal,Inanimate,In Situ
+34,recommend,to the professor,the professor,Animate,Moved
+34,recommend,to the professor,the professor,Inanimate,Moved
+35,give,the dog to the girl,the girl the dog,Animate,In Situ
+35,give,the leash to the girl,the girl the leash,Inanimate,In Situ
+35,give,to the girl,the girl,Animate,Moved
+35,give,to the girl,the girl,Inanimate,Moved
+36,recommend,the bartender to the bachelorette,the bachelorette the bartender,Animate,In Situ
+36,recommend,the bar to the bachelorette,the bachelorette the bar,Inanimate,In Situ
+36,recommend,to the bachelorette,the bachelorette,Animate,Moved
+36,recommend,to the bachelorette,the bachelorette,Inanimate,Moved
