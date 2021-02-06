@@ -1,15 +1,17 @@
+library(tidyverse)
+
 myvars <- c("Subject","MD5","TrialType","Number","Element","Experiment","Item", "Question", "Response","null","RT")
 #<- c() = combines all values in a list into one variable
 
-data.all <- read.csv('/users/kcron/Documents/loonresults.txt',
+data.all <- read.csv('/Users/chrishammerly/loon/loon/analysis/loonresults.txt',
                      header=0,
                      sep=",",
                      comment.char="#",
-                     col.names=mycols,
+                     col.names=myvars,
                      fill = TRUE)
 #bringing the results into R, read.csv implies comma separated values
 
-answers <- read.delim('users/kcron/Documents/loonanswers.txt',
+answers <- read.delim('/Users/chrishammerly/loon/loon/analysis/answers.txt',
                       header=1,
                       sep=",")
 #bringing answers into R, read.delim implies file is formatted as a table
@@ -20,6 +22,9 @@ answers$Item <- as.factor(as.character(answers$Item))
 data.age <- droplevels(subset(data.all, Experiment == "intro" & Question == "age"))
 #data.age defining which data deals with the age of the participants
 #droplevels removes unwanted levels from the factor data.all except for what comes after the comma
+
+data.feedback <- droplevels(subset(data.all, Experiment == "debrief"))
+write.csv(data.feedback,"feedback.csv")
 
 data.instruction <- droplevels(subset(data.all, Experiment == "prepractice"))
 #similar to above
@@ -50,7 +55,7 @@ data.exp$Animacy <- ifelse(data.exp$Experiment=='LOON-AnimInsitu' | data.exp$Exp
 #here, x=animate and y=inanimate
 #this basically is categorizing data from the experiment based on displacement
 
-data.exp <- left_join(data.exp,answers)
+data.exp2 <- left_join(data.exp,answers)
 #joins two tables (data.exp and answers) together
 
 data.exp$PD <- as.character(data.exp$PD)
