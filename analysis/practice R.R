@@ -3,7 +3,7 @@ library(tidyverse)
 myvars <- c("Subject","MD5","TrialType","Number","Element","Experiment","Item", "Question", "Response","null","RT")
 #<- c() = combines all values in a list into one variable
 
-data.all <- read.csv('/Users/chrishammerly/loon/loon/analysis/loonresults.txt',
+data.all <- read.csv('/Users/kcron/Documents/Loon/loonresults.txt',
                      header=0,
                      sep=",",
                      comment.char="#",
@@ -11,10 +11,17 @@ data.all <- read.csv('/Users/chrishammerly/loon/loon/analysis/loonresults.txt',
                      fill = TRUE)
 #bringing the results into R, read.csv implies comma separated values
 
-answers <- read.delim('/Users/chrishammerly/loon/loon/analysis/answers.txt',
+answers <- read.delim('/Users/kcron/Documents/Loon/loonanswers.txt',
                       header=1,
                       sep=",")
 #bringing answers into R, read.delim implies file is formatted as a table
+
+feedbackvars <- c("Subject","MD5","Question","Response","Ungrammatical")
+
+data.feedbackcat <- read.csv('C:/Users/kcron/Documents/GitHub/loon/analysis/feedbackcategorized.csv',
+                             header=1,
+                             sep=",",
+                             col.names=feedbackvars)
 
 answers$Item <- as.factor(as.character(answers$Item))
 #defines column "Item" in "answers" dataframe
@@ -55,7 +62,7 @@ data.exp$Animacy <- ifelse(data.exp$Experiment=='LOON-AnimInsitu' | data.exp$Exp
 #here, x=animate and y=inanimate
 #this basically is categorizing data from the experiment based on displacement
 
-data.exp2 <- left_join(data.exp,answers)
+data.exp <- left_join(data.exp,answers)
 #joins two tables (data.exp and answers) together
 
 data.exp$PD <- as.character(data.exp$PD)
@@ -68,7 +75,14 @@ data.exp$Answer <- ifelse(data.exp$Response == data.exp$PD, 1, 0)
 #defines column "answer" in "data.exp" 
 #if data.exp$Response is exactly equal to data.exp$PD, return 1 if true, 0 if false
 
+data.exp <- left_join(data.exp,data.feedbackcat, by = c("Subject", "MD5"))
+data.exp$Ungrammatical <- ifelse(data.exp$Ungrammatical == "YES",1,0)
+#mean(data.exp$Ungrammatical)
 #above was setting up the data to have statistics done to it
+
+#data.age <- droplevels(subset(data.all, Experiment == "intro" & Question == "age"))
+
+data.exp <- left_join(data.exp,data.age, by = c("Subject", "MD5"))
 
 accuracy.summary.by.subj <- data.exp %>%
 #%>% is still a bit confusing, helps with nesting arguments though
@@ -78,8 +92,26 @@ accuracy.summary.by.subj <- data.exp %>%
 #grouping the data based on variables MD5, Animacy, and Displacement
 #summarize creates new dataframe, one column for each grouped variable and one for the summary statistic (mean here)
 
+accuracy.summary.by.ungrammaticality <- data.exp %>%
+  group_by(Ungrammatical, MD5,Animacy, Displacement) %>%
+  summarise(mean.PD = mean(Answer))
+
+accuracy.summary.by.age <- data.exp %>%
+  group_by(Response, Animacy, Displacement) %>%
+  summarise(mean.PD = mean(Answer))
+
+#write.csv(data.feedback,"C:\\Users\\kcron\\Documents\\Loon\\feedbackpractice.csv", row.names = FALSE)
+
+
 accuracy.summary <- accuracy.summary.by.subj %>%
   group_by(Animacy, Displacement) %>%
+  summarise(mean = mean(mean.PD),
+            SEM = sd(mean.PD)/sqrt(n_distinct(MD5)),
+            ci.lower.mean = mean - qt(.975,df=n_distinct(MD5)-1)*SEM,
+            ci.upper.mean = mean + qt(.975,df=n_distinct(MD5)-1)*SEM)
+
+accuracy.summary.ungrammaticality <- accuracy.summary.by.ungrammaticality %>%
+  group_by(Ungrammatical, Animacy, Displacement) %>%
   summarise(mean = mean(mean.PD),
             SEM = sd(mean.PD)/sqrt(n_distinct(MD5)),
             ci.lower.mean = mean - qt(.975,df=n_distinct(MD5)-1)*SEM,
@@ -89,16 +121,55 @@ accuracy.summary <- accuracy.summary.by.subj %>%
 #SEM = another summary statistic function, i believe here it is for finding standard deviation
 #cis are finding the confidance interval of the mean
 
-ggplot(data=accuracy.summary.verb)+
+ggplot(data=accuracy.summary)+
   aes(x = Displacement, y = mean, fill = Displacement)+
   geom_bar(position = 'dodge',stat = "identity") +
   ylim(0,1)+
   geom_linerange(stat='identity',position = position_dodge(width = 0.9),mapping=aes(ymax = ci.upper.mean,ymin=ci.lower.mean)) +
   ylab("Proportion PD Response")+
-  facet_grid(Verb~Animacy)+
+  facet_grid(.~Animacy)+
   scale_fill_grey()+
   theme_minimal(base_size = 12,base_family = "Charter")+ theme(legend.position="none")
 #ggplot is from tidyverse, used for creating data visualizations
+
+ggplot(data=accuracy.summary.ungrammaticality)+
+  aes(x = Displacement, y = mean, fill = Displacement)+
+  geom_bar(position = 'dodge',stat = "identity") +
+  ylim(0,1)+
+  geom_linerange(stat='identity',position = position_dodge(width = 0.9),mapping=aes(ymax = ci.upper.mean,ymin=ci.lower.mean)) +
+  ylab("Proportion PD Response")+
+  facet_grid(Animacy~Ungrammatical)+
+  scale_fill_grey()+
+  theme_minimal(base_size = 12,base_family = "Charter")+ theme(legend.position="none")
+
+ggplot(data=accuracy.summary.by.age)+
+  aes(x = Displacement, y = mean.PD, fill = Displacement)+
+  geom_bar(position = 'dodge',stat = "identity") +
+  ylim(0,1)+
+  geom_dotplot(
+    mapping = NULL,
+    data = NULL,
+    position = "identity",
+    binwidth = NULL,
+    binaxis = "x",
+    method = "dotdensity",
+    binpositions = "bygroup",
+    stackdir = "up",
+    stackratio = 1,
+    dotsize = 1,
+    stackgroups = FALSE,
+    origin = NULL,
+    right = TRUE,
+    width = 0.9,
+    drop = FALSE,
+    na.rm = FALSE,
+    show.legend = NA,
+    inherit.aes = TRUE
+  )+
+  ylab("Proportion PD Response")+
+  facet_grid(Animacy~Response)+
+  scale_fill_grey()+
+  theme_minimal(base_size = 12,base_family = "Charter")+ theme(legend.position="none")
 
 RT.summary.by.subj <- data.exp %>%
   group_by(MD5, Animacy, Displacement, Answer) %>%
